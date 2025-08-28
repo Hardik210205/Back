@@ -9,7 +9,7 @@ const userRoutes = require("./routes/userRoutes");
 const messageRoutes = require("./routes/messageRoutes");
 
 app.use(cors({
-    origin: "http://localhost:3000", // Replace with your frontend Render URL
+    origin: "https://fron-3md3.onrender.com", // Replace with your frontend Render URL
     credentials: true,
 }));
 app.use(express.json());
